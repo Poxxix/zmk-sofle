@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: Gui+Sft+Ctl+4, s: Gui+Sft+Ctl+$}
+  - {t: Gui+Sft+4, s: Gui+Sft+$}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-option$$
@@ -78,51 +78,51 @@ layers:
   - F8
   - F9
   - F10
+  - {t: Gui+Sft+3, s: Gui+Sft+#}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - Gui+Q
+  - Gui+W
+  - Gui+E
+  - Gui+R
+  - Gui+T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Gui++
   - {t: Gui+-, s: Gui+_}
   - $$mdi:arrow-up-bold$$
   - {t: Gui+0, s: Gui+)}
-  - P
+  - Gui+P
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - A
-  - S
-  - D
-  - F
-  - G
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - Gui+Sft+G
+  - Gui+H
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - RGB EFF
-  - RGB EFR
-  - RGB SPI
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
-  - RGB BRD
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+B
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - Gui+N
+  - Gui+M
+  - {t: 'Gui+,', s: Gui+<}
+  - {t: Gui+., s: Gui+>}
+  - {t: Gui+/, s: 'Gui+?'}
   - {t: Gui+Sft+4, s: Gui+Sft+$}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:keyboard-space$$
+  - Alt+$$mdi:keyboard-tab$$
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -132,18 +132,18 @@ layers:
   - F12
   '2':
   - '~'
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - AC DESKTOP SHOW ALL WINDOWS
+  - Gui+$$mdi:keyboard-space$$
+  - AC DESKTOP SHOW ALL APPLICATIONS
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - REWIND
+  - PLAY PAUSE
+  - FAST FORWARD
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
@@ -182,7 +182,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
   - $$mdi:progress-download$$
-  - {t: Gui+Sft+Ctl+4, s: Gui+Sft+Ctl+$}
+  - {t: Gui+Sft+4, s: Gui+Sft+$}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

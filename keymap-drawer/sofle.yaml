@@ -117,7 +117,7 @@ layers:
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: Gui+Sft+Ctl+4, s: Gui+Sft+Ctl+$}
+  - {t: Gui+Sft+4, s: Gui+Sft+$}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

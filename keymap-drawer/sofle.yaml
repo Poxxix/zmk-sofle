@@ -134,16 +134,16 @@ layers:
   - '~'
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
-  - AC SEARCH
+  - AC DESKTOP SHOW ALL WINDOWS
   - LAUNCH MAIL
-  - LAUNCH MEDIA PLAYER
+  - $$mdi:brightness-7$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: Gui+Sft+3, s: Gui+Sft+#}
-  - {t: Gui+Sft+4, s: Gui+Sft+$}
-  - {t: Gui+Sft+5, s: Gui+Sft+%}
-  - Gui+Alt+D
-  - AC DESKTOP SHOW ALL APPLICATIONS
-  - Gui+Alt+$$mdi:keyboard-space$$
+  - $$mdi:brightness-5$$
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL

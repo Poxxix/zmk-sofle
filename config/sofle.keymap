@@ -47,7 +47,7 @@
 &kp TAB     &kp Q      &kp W       &kp E       &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp LSHFT   &kp A      &kp S       &kp D       &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &kp LCTRL   &kp Z      &kp X       &kp C       &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp LG(LS(N4))
-&kp C_MUTE  &kp CAPS   &kp LALT    &mo 1       &kp LGUI             &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp MINUS        &kp EQUAL
+&kp C_MUTE  &kp CAPS   &kp LALT    &kp LGUI    &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp MINUS        &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -56,11 +56,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9        &kp F10           &kp LG(LS(N3))
-&trans      &kp LG(Q)        &kp LG(W)       &kp LG(E)        &kp LG(R)        &kp LG(T)          &mmv MOVE_DOWN   &kp LG(PLUS)     &kp LG(MINUS)    &kp UP      &kp LG(N0)    &kp LG(P)         &kp DELETE
-&trans      &kp LG(A)        &kp LG(S)       &kp LG(D)        &kp LG(F)        &kp LG(G)          &mmv MOVE_LEFT   &kp LG(H)        &kp LEFT         &kp DOWN    &kp RIGHT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp LG(Z)        &kp LG(X)       &kp LG(C)        &kp LG(V)        &kp LG(B)          &mmv MOVE_RIGHT  &kp LG(N)        &kp LG(M)        &kp LG(COMMA) &kp LG(DOT)   &kp LG(FSLH)      &kp LG(LS(N4))
-&kp C_MUTE  &kp LG(SPACE)    &kp LA(TAB)     &trans           &kp LG(TAB)      &trans             &mkp LCLK        &trans           &trans           &trans      &kp F11       &kp F12
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8          &kp F9        &kp F10           &kp LG(LS(N5))
+&trans      &kp LG(SPACE)    &kp LG(W)       &kp LG(E)        &kp LG(R)        &kp LG(T)          &mmv MOVE_DOWN   &kp LG(Y)        &kp LG(LS(Z))    &kp LG(I)       &kp LG(O)     &kp LG(P)         &kp LG(BACKSPACE)
+&trans      &kp LG(A)        &kp LG(S)       &kp LG(D)        &kp LG(F)        &kp LG(G)          &mmv MOVE_LEFT   &kp LG(H)        &kp LG(J)        &kp LG(K)       &kp LG(L)     &kp LG(LBKT)      &kp LG(RBKT)
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp LA(SPACE)   &kp LG(GRAVE) &kp LG(LA(ESC))   &kp LG(LS(N4))
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans          &kp F11       &kp F12
             >;
 
             display-name = "layer1";
@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &kp C_BRI_DN     &kp C_BRI_UP    &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp LG(SPACE)  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS    &mmv MOVE_UP     &kp C_REWIND     &kp C_PLAY_PAUSE &kp C_FAST_FORWARD &kp C_MUTE    &kp C_VOL_DN      &kp C_VOL_UP
-&trans     &bt BT_CLR       &bt BT_CLR_ALL  &trans           &kp R            &kp T                                 &mmv MOVE_DOWN   &kp LG(K)        &kp U            &kp I              &kp O         &kp P             &trans
-&trans     &out OUT_USB     &out OUT_BLE    &trans           &kp F            &kp G                                 &mmv MOVE_LEFT   &kp H            &kp J            &kp K              &kp L         &kp LBRC          &kp RBRC
-&trans     &sys_reset       &trans          &bootloader      &kp V            &kp LG(LS(K))                         &mmv MOVE_RIGHT  &kp LG(D)        &kp LG(LA(C))    &sys_reset         &soft_off     &bootloader       &kp LG(LS(N4))
-&trans     &trans           &trans          &trans           &trans           &trans                                &mkp LCLK        &trans           &trans           &trans             &kp C_VOL_DN  &kp C_VOL_UP
+&kp TILDE  &kp C_BRI_DN     &kp C_BRI_UP       &kp C_AC_SEARCH  &kp C_LAUNCH_MAIL &kp C_LAUNCH_MEDIA_PLAYER &mmv MOVE_UP     &kp LG(LS(N3))   &kp LG(LS(N4))   &kp LG(LS(N5))  &kp LG(LA(D))     &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp LG(LA(SPACE))
+&trans     &bt BT_CLR       &bt BT_CLR_ALL     &kp LG(LA(W))    &kp LG(LA(E))    &kp LG(COMMA)      &mmv MOVE_DOWN   &kp LC(UP)       &kp LC(DOWN)     &kp LC(LEFT)    &kp LC(RIGHT)     &kp LG(M)                               &kp LG(LA(H))
+&trans     &out OUT_USB     &out OUT_BLE       &kp LA(F4)       &kp LG(LA(F))    &kp LG(LA(G))      &mmv MOVE_LEFT   &kp LG(LA(LEFT)) &kp LG(LA(RIGHT)) &kp C_SLEEP     &kp LG(LC(Q))     &kp LG(LA(V))                           &kp LG(LS(A))
+&trans     &sys_reset       &kp LG(LA(X))      &bootloader      &kp LG(LA(V))    &kp LG(FSLH)       &mmv MOVE_RIGHT  &kp C_AC_SEARCH  &kp LG(LA(M))    &sys_reset      &soft_off         &bootloader                             &kp LG(LS(N4))
+&trans     &trans           &trans             &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans          &kp C_VOL_DN      &kp C_VOL_UP
             >;
 
             sensor-bindings = <&scroll_encoder>;

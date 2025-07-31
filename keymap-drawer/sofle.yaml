@@ -133,16 +133,16 @@ layers:
   '2':
   - '~'
   - $$mdi:brightness-7$$
-  - $$mdi:brightness-5$$
-  - AC DESKTOP SHOW ALL WINDOWS
-  - LAUNCH MAIL
-  - $$mdi:brightness-7$$
+  - BRI INC
+  - F3
+  - F4
+  - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - $$mdi:brightness-5$$
+  - F6
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
   - $$mdi:volume-off$$
-  - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
